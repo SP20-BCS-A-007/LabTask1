@@ -7,7 +7,8 @@ body{
     background-color: #FF014F;
     overflow: hidden;
     padding: 4px;
-   
+   position: sticky;
+   top: 0;
     
 }
 #nav-bar ul li{
@@ -135,11 +136,12 @@ body{
     
 }
 .skills-container {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     margin-left: 6%;
     margin-right: 6%;
+    padding-bottom: 50px;
    
-    grid-template-columns: auto auto auto;
 
   }
   .skills-item {
@@ -163,3 +165,100 @@ body{
     font-size: 16px;
     text-align: justify;
     }
+
+    .icon-style{
+        color: #1E2125;
+    }
+    
+#footer{
+    background-color: #FF014F;
+   
+}
+
+#footer h6{
+    margin: 0%;
+    
+}
+
+
+#footer{
+    background-color: #FF014F;
+    overflow: hidden;
+    padding: 4px;
+   position: sticky;
+   top: 0;
+    
+}
+#footer ul li{
+   float: right;
+   padding: 15px;
+   text-align: center;
+  
+}
+#copyright {
+    float: left;
+    margin-left: 20px;
+    color: white;
+    font-size: 28px;
+    margin-top: 24px;
+}
+
+
+#footer ul{
+    list-style-type: none;
+    margin: 0;
+   
+}
+#footer ul li a{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 2em;
+    color: white;
+   
+    font-weight: bold;
+
+}
+#footer ul li a:hover{
+    font-size: 2.3rem;
+    color: #1A8BD7;
+}
+#abovefooter{
+    background-color: white;
+    text-align: center;
+    color: #FF014F;
+  
+    padding: 50px;
+}
+
+#abovefooter >div{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#abovefooter h3{
+    color: #212428;
+}
+#abovefooter p{
+    font-size: 16px;
+    color: black;
+}
+
+#abovefooter button{
+    background-color: #FF014F;
+    color: #212428;
+    font-size: 16px;
+   
+    border: none;
+   border-radius: 4px;
+    padding: 10px;
+}
+
+#abovefooter button a{
+    text-decoration: none;
+    color: #212428;
+}
+
+#abovefooter button:hover{
+  opacity: 0.9;  
+}  
+
